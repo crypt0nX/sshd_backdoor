@@ -1,6 +1,6 @@
 CLANG ?= clang
 CFLAGS := -O2 -g -Wall -Werror -I /usr/include/aarch64-linux-gnu -v $(CFLAGS)
-GOPROXY := 'https://goproxy.io,direct'
+GOPROXY := https://goproxy.io,direct
 GENERATED_TYPE := custom_payload
 
 # build full sshd_backdoor cli tool.
